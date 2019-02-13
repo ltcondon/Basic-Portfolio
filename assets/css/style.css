@@ -6,4 +6,33 @@ body {
     color: #777777;
     background-image: url(../images/dark_Tire.png);
     background-color: #cccccc;
-  }
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #ffffff;
+    height: 120px;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px;
+    float:left;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 20px;
+
+}
+.container {
+    width: 960px;
+    background-color: #ffffff;
+}
+
+.nav-bar {
+    float:right;
+    padding: 20px;
+    background-color: #ffffff
+}
