@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Liam Condon - Contact</title>
-  <link rel="stylesheet" type="text/css" href="floats.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -19,15 +19,19 @@
         </section>
     </div>
 
-    <div class= "contact form">
+    <div class= "container">
         
         <h2>Contact</h2>
 
         <hr>
 
-        <p>Name</p>
-        <p>Email</p>
-        <p>Message</p>
+        <form action="action_page.php">
 
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email address..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     </div>
