@@ -17,12 +17,17 @@ h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
     float:left;
+    height: 36px;
 }
 
 h2 {
     color: #4aaaa5;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
 
 }
 .container {
@@ -35,21 +40,51 @@ h2 {
 .nav-bar {
     width: 960px;
     background-color: #ffffff;
-    height: 72px;
+    height: 76px;
     margin: auto;
 }
 
 .nav-links {
-    float:right;
+    float: right;
     padding: 20px;
     background-color: #ffffff
 }
 
 .headshot {
     float:left;
+    padding-right: 20px;
+}
+
+.about {
     padding: 20px;
 }
 
 .aboutme {
     padding-top: 20px;
+}
+.hr1 {
+  width: 914px;
+  align-self: auto;
+}
+
+footer {
+    background-color: #686666;
+    width: 100%;
+    color: #cccccc;
+    height: 25px;
+    position: absolute;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.footer-bar {
+    background-color: #4aaaa5;
+    width: 100%;
+    color: #cccccc;
+    height: 27px;
+    position: absolute;
+    bottom: 0px;
 }
