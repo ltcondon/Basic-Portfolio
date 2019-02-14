@@ -30,7 +30,7 @@ h2 {
     font-weight: bold;
 
 }
-.container {
+.about-container {
     margin-top: 20px;
     width: 960px;
     background-color: #ffffff;
@@ -67,17 +67,33 @@ h2 {
   align-self: auto;
 }
 
+.portfolio-container {
+    margin-top: 20px;
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.row {
+    clear: both;
+    padding: 20px 20px 20px 55px;
+}
+
+.portfolio-img {
+    padding: 40px;
+}
+
 footer {
     background-color: #686666;
     width: 100%;
     color: #cccccc;
     height: 25px;
-    position: absolute;
     padding-top: 5px;
     text-align: center;
     font-size: 10px;
     bottom: 0px;
-    z-index: 2;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
 .footer-bar {
@@ -85,6 +101,7 @@ footer {
     width: 100%;
     color: #cccccc;
     height: 27px;
-    position: absolute;
-    bottom: 0px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
 }
