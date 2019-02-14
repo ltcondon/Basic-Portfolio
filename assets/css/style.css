@@ -1,8 +1,6 @@
 body {
-    font-size: 24px;
-    line-height: 32px;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 1.5;
     color: #777777;
     background-image: url(../images/dark_Tire.png);
     background-color: #cccccc;
@@ -11,7 +9,8 @@ body {
 
 header {
     background-color: #ffffff;
-    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -27,12 +26,30 @@ h2 {
 
 }
 .container {
+    margin-top: 20px;
     width: 960px;
     background-color: #ffffff;
+    margin: 0 auto;
 }
 
 .nav-bar {
+    width: 960px;
+    background-color: #ffffff;
+    height: 72px;
+    margin: auto;
+}
+
+.nav-links {
     float:right;
     padding: 20px;
     background-color: #ffffff
+}
+
+.headshot {
+    float:left;
+    padding: 20px;
+}
+
+.aboutme {
+    padding-top: 20px;
 }
