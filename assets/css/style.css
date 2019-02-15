@@ -2,7 +2,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #777777;
-    background-image: url(../images/dark_Tire.png);
+    background-image: url(../images/cheap_diagonal_fabric.png);
     background-color: #cccccc;
     background-attachment: fixed;
 }
@@ -10,7 +10,7 @@ body {
 header {
     background-color: #ffffff;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -37,6 +37,7 @@ h2 {
     margin: 0 auto;
     padding-bottom: 30px;
     overflow: auto;
+    margin-bottom: 250px;
 }
 
 .nav-bar {
@@ -85,6 +86,7 @@ a:visited {
 .hr1 {
   width: 914px;
   align-self: auto;
+  margin-bottom: 20px;
 }
 
 .portfolio-container {
@@ -94,11 +96,12 @@ a:visited {
     margin: 0 auto;
     overflow: auto;
     padding-bottom: 30px;
+    margin-bottom: 200px;
 }
 
 .row {
     clear: both;
-    padding: 20px 20px 20px 55px;
+    padding: 20px 20px 20px 135px;
 }
 
 .portfolio-img {
@@ -115,13 +118,43 @@ a:visited {
 
 .caption {
     position: absolute;
-    width: inherit;
-    bottom: 0px;
+    width: 200px;
+    bottom: 7px;
     color: #ffffff;
     background: #4aaaa5;
-	text-align:center;
-	font-weight:bold;
-	opacity:0.85;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.85;
+    padding-bottom: 10px;
+}
+
+form {
+    margin: auto;
+    width: 860px;
+}
+
+.contact-field {
+    padding-bottom: 20px;
+} 
+
+.contact-row {
+    clear: both;
+    padding: 2px 10px 3px 2px;
+    margin-left: 19%;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 60%;
+}
+
+#subject {
+    clear: both;
+    padding: 2px 10px 100px 2px;
+    margin-left: 19%;
 }
 
 /* .footer-bar {
@@ -132,20 +165,22 @@ a:visited {
     text-align: center;
     font-size: 10px;
     bottom: 0px;
-    position: -webkit-sticky; /* Safari */
-    /* position: sticky; */
-}
+    position: -webkit-sticky;
+    position: sticky;
+} */
 
 footer {
-    background-color: #686666;
+    background-color: #a0a0a0;
     width: 100%;
-    color: #cccccc;
-    height: 40px;
-    position: -webkit-sticky; /* Safari */
+    color: #e7e7e7;
+    height: 20px;
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0px;
     padding: 10px;
     text-align: center;
     font-size: 10px;
-    
+    border-top: 5px solid #4aaaa5;
+    margin-top: 0px;
+
 }
